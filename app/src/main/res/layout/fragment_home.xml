@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="118dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="40dp"
+        android:text="Post "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.901"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editPostText"
+        tools:context=".HomeFragment" />
+
+    <EditText
+        android:id="@+id/editPostText"
+        android:layout_width="354dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="312dp"
+        android:ems="10"
+        android:gravity="top|start"
+        android:inputType="textPersonName"
+        android:lines="8"
+        android:maxLines="10"
+        android:minLines="6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:text="Have You Needs or Means?" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1030801030423",
+    "project_id": "mutual-app-4149d",
+    "storage_bucket": "mutual-app-4149d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1030801030423:android:29e2b13ba91f759b4b8b52",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1030801030423-nptc70s50u3r963o64suurg3afdmpa0f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPwLHkJsU9FtCR8B6b2Ux8cln2Dc7vFtU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1030801030423-nptc70s50u3r963o64suurg3afdmpa0f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
